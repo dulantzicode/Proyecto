@@ -1,0 +1,14 @@
+body {
+   background-color: rgb(29, 29, 29);
+   margin: 0;
+   font-family: Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+   width: 1150px;
+
+}
+
+/* .bold {
+    font-weight: 900;
+    color: whitesmoke;
+} */

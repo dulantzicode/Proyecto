@@ -1,0 +1,75 @@
+.center-home {
+    padding-top: 40px;
+    background-image: radial-gradient(at 10% -80px, #6a6a6a 3%, transparent 60%);
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.center-home > .left-column-home {
+    color: rgb(198, 198, 198);
+    letter-spacing: 1px;
+    margin-top: -20px;
+    padding: 0px 70px 0px 50px;
+}
+
+.center-home > .left-column-home .paragraph-1 {
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.center-home > .left-column-home .paragraph {
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.center-home > .left-column-home > .paragraph i {
+    font-family: "Font Awesome 6 free";
+    color: rgb(255, 208, 0);
+    font-weight: 700;
+    font-size: 1.2rem;
+    transform: rotate(-45deg);
+}
+
+.center-home > .left-column-home > .left-colomn-button-wrapper {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.center-home > .left-column-home > .left-colomn-button-wrapper > .left-button {
+    background-color: aquamarine;
+    color: black;
+    font-size: 1.4rem;
+    padding: 15px 30px;
+    border-radius: 3px;
+    outline: none;   
+}
+
+.center-home > .left-column-home > .left-colomn-button-wrapper > .rigth-button {
+    margin-left: 8px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-size: 1.4rem;
+    padding: 15px 30px;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+.center-home > .right-column-home p{
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 1.2rem;  
+}
+
+.center-home > .right-column-home .blue{
+    color: cyan;
+}
+
+.center-home > .right-column-home img{
+    width: 100%;
+    margin-top: -10px;  
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);  
+}
+
